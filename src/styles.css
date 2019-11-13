@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.new-section{
+    margin-bottom: 80px;   
+}
+
+
+
+.cf1{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.cf2{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+
+body{
+    padding: 0px 0px 0px 0px;
+    z-index: 0;
+}
+
+
+
+
+

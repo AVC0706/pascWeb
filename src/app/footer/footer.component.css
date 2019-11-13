@@ -1,0 +1,18 @@
+.probootstrap-copyright {
+    padding: 3em 0;
+    margin-top: 20px;
+    background: #1a1919;
+}
+
+.probootstrap-footer, .probootstrap-footer-widget {
+    float: left;
+    width: 100%;
+   
+}
+
+.probootstrap-footer{
+  
+    background-color:rgba(18, 19, 47);
+    color: floralwhite;
+   
+}
