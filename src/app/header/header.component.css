@@ -4,27 +4,25 @@
 }
 
 
-
-
 .dark {
     background:rgba(18, 19, 47);
     -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
     opacity: 1;
-    font-size: larger;
+   
     padding: 20px;
     
 }
-
-
 
  .navbar-collapse {
     border-color: #e7e7e7;
 }
 
 .nav-link {
-   margin-right: 25px;
+   margin-right: 10px;
+   color: cornsilk;
 }
+
 
 /*sticky header position*/
 .sticky.is-sticky {
@@ -44,3 +42,6 @@
     border-color: white;
 }
 
+.active , .nav-link:hover{
+   color: cadetblue;
+}

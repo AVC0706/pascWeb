@@ -1,0 +1,74 @@
+
+
+body {
+    
+    margin-right: 0;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    /* padding: 3rem;   */
+    overflow-x: hidden;
+}
+.feed {
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    font-weight: 500;
+}
+.header {
+    height: 35rem;
+    background-color: rgba(18, 19, 47);
+    color: white;
+    text-align: 4rem;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.img1 {
+    margin-top: 5rem;
+    width: 100%;
+    height: 65%;
+}
+.bits {
+    margin-top: 15rem;
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0, .2);
+    background-color: #eee;
+}
+.bold {
+    font-size: 4rem;
+    color: black;
+    font-weight: 500;
+    padding-top: 5rem;
+    padding-left: 3.5rem;
+    text-align: left;
+    
+}
+.row1 {
+    padding: 5rem;
+}
+.img2 {
+    width: 50%;
+    position: inherit;
+
+    margin-right: inherit;
+    margin-top: 5rem;
+    z-index: 2000;
+    /* margin-left: 80rem;
+     */
+}
+.align {
+    margin-top: 6rem;
+    margin-left: -7rem;
+}
+
+.card{
+    box-shadow:1px 1px 10px;
+}
+@media only screen and (max-width:992px){
+    .card{
+        margin-top:4%;
+    }
+}
+

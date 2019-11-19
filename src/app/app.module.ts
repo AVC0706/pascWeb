@@ -9,13 +9,19 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { HomeComponent } from './home/home.component';
+import { DomainComponent } from './domain/domain.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    AboutusComponent
+    AboutusComponent,
+    HomeComponent,
+    DomainComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

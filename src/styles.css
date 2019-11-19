@@ -8,6 +8,8 @@
     font-family: 'Courier New', Courier, monospace;
 }
  
+
+
 .new-section{
     margin-bottom: 80px;   
 }
@@ -28,6 +30,7 @@
 body{
     padding: 0px 0px 0px 0px;
     z-index: 0;
+    background-color: #dff9fb;
 }
 
 

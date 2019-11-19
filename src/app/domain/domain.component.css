@@ -1,0 +1,292 @@
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+  .first{
+    
+    position: relative;
+
+  }
+
+ .mt-5{
+     margin-top: 10rem;;
+ }
+
+  .second{
+      position: relative;
+      top: -30px;
+      width: 90%;
+      z-index: 2px;
+      align-self: center;
+      transition: width 0.2s;
+      
+  }
+
+  .mybutton{
+      border: none;
+      box-shadow: none;
+      background-color: white;
+      padding: 0;
+      margin: 0;
+      outline: none;
+  }
+
+  .second:hover{
+      width: 100%;
+      
+  }
+
+
+  .memberinfo1{
+      color: grey;
+      font-size: 2.5vw;
+      font-weight: 10;
+  }
+
+  .memberinfo2{
+    color: grey;
+    font-size: 2vw;
+    font-weight: 10;
+}
+
+
+  
+.new-section{
+    margin-bottom: 80px;
+    padding: 20px auto;
+    
+}
+
+
+  .card-img , .card-img-top{
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.card-img{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+.cf1{
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.cf2{
+    
+    
+}
+
+.intro{
+    background-image: linear-gradient(rgba(0,0,0.8),rgba(0,0,0,0.8)),url(/assets/domainimage/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+			    
+}
+
+.card{
+    
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+.card-text{
+    
+    color: #6b6464;
+    padding-bottom: 20px;
+}
+
+.card-title{
+    padding-bottom: 20px;
+}
+
+
+.jumbotron , .probootstrap-footer{
+  
+    background-color:rgba(18, 19, 47);
+    color: floralwhite;
+    border-radius: 0;
+    margin-bottom: 0;   
+}
+
+
+body{
+    padding: 0px 0px 0px 0px;
+    z-index: 0;
+}
+
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+    align-self: center;
+}
+
+
+
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+    
+}
+
+
+h4:after {
+    display: block;
+    height: 2px;
+    background-color: #2da1b1;
+    content: " ";
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+h2:after {
+   
+    display: block;
+    height: 3px;
+    
+    content: " ";
+    width: 85px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    
+}
+
+.line-up{
+
+   margin-top: 20px;
+    height: 3px;
+    background-color: #2da1b1;
+    content: " ";
+    width: 30%;
+    margin: 0px auto;
+    margin-top: 5px;
+    align-self: right;
+   
+}
+
+.org{
+    color:WHITE;
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    padding: 10px;
+    
+    
+}
+
+
+#gmap_canvas{
+    border-radius: 10px;
+    margin-top: 25%;
+    align-self: center;
+    height: 300px;
+    width: 150%;
+    margin-left: 10%;
+    
+}
+
+.probootstrap-copyright {
+    padding: 3em 0;
+    margin-top: 20px;
+    background: #1a1919;
+}
+
+.probootstrap-footer, .probootstrap-footer-widget {
+    float: left;
+    width: 100%;
+   
+}
+
+.content-head{
+    padding-right: 48%;
+}
+
+.prefix {
+    position: relative;
+    width: 3rem;
+    font-size: 2rem;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -o-transition: color .2s;
+    -ms-transition: color .2s;
+    transition: color .2s;
+}
+
+ .contact-ico {
+   
+    background: -webkit-linear-gradient( #00e4ff , rgb(9, 84, 146));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+    background: -webkit-linear-gradient( #00e4ff , rgb(9, 84, 146));
+}
+
+.contact-hero {
+    position: absolute;
+    z-index: -1;
+    width: 70%;
+    left: 10%;
+    padding-top: -10px;
+}
+
+
+
+.dark {
+    background:rgba(18, 19, 47);
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    font-size: larger;
+    padding: 20px;
+    
+}
+
+
+
+ .navbar-collapse {
+    border-color: #e7e7e7;
+}
+
+.nav-link {
+   margin-right: 25px;
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-item{
+    color: #e7e7e7;
+}
+
+.navbar-toggler-icon{
+    border-color: white;
+}
+
